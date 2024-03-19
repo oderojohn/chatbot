@@ -1,0 +1,277 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                          "habari",
+                          "Hi there",
+                          "How are you",
+                          "Is anyone there?",
+                          "Hey",
+                          "Hola",
+                          "Hello",
+                          "Good day",
+                          "Hi",
+                          "Good morning",
+                          "Good afternoon",
+                          "Good evening",
+                          "What's up",
+                          "Greetings",
+                          "Yo",
+                          "Hi, how can I help?",
+                          "Hey, what can I do for you?"
+                        ],
+                        "responses": [
+                          "Hello, How can I assist you today?",
+                          "Good to see you again, How can I assist you today?",
+                          "Hi there, how can I help?",
+                          "Hola, How can I assist you today?",
+                          "Greetings! How may I assist you today?",
+                          "Hey! How can I assist you?",
+                          "Hello! How can I be of service?",
+                          "Hi! What can I do for you?",
+                          "Good day! How can I assist you today?",
+                          "Hi! It's great to have you here,  If you have any questions or need assistance with something, feel free to ask",
+                          "Hello, it's nice to see you..  If you have any questions or need assistance with something, feel free to ask",
+                          "Hey there! How can I assist you today?"
+                        ],
+                        "context": [""]
+                      },
+                      
+          {
+            "tag": "welcome",
+            "patterns": ["Welcome to Rongo University", "Tell me about Rongo University", "Introduce Rongo University"],
+            "responses": ["Welcome to Rongo University (RU), a prestigious institution with a rich history dating back to the early 1970s. Discover the journey of our university from its humble beginnings as Kitere Technical School to its current status as a full-fledged public university."],
+            "context": [""]
+          },
+          {
+            "tag": "history",
+            "patterns": ["Tell me about the history of Rongo University", "History of RU", "How did RU start"],
+            "responses": ["Established in the 1970s as Kitere Technical School, our institution was initially created by the local community as a craft apprenticeship training center. However, in the 1980s, the Southern Nyanza region experienced a growing demand for technical and vocational training. Recognizing this need, the Union of South Nyanza Welfare Association (USNWA), a lobby group, approached President Daniel Arap Moi to transform Kitere Technical School into a public institution."],
+            "context": [""]
+          },
+          {
+            "tag": "milestones",
+            "patterns": ["Tell me about the milestones of RU", "RU achievements", "RU's transformation"],
+            "responses": ["President Moi not only granted their request but also bestowed the honor of naming the institute after himself. Thus, Moi Institute of Technology (MIT) was established in 1983. This marked a significant milestone for our institution, as it transitioned into a recognized public establishment.", "In 2007, a memorandum of understanding was signed between Moi University and Moi Institute of Technology. This collaboration allowed MIT to offer diploma and undergraduate programs in education, business, and human resource management as a satellite campus. The first batch of 100 students, supported by the Rongo Constituency Development Fund, was admitted in January 2008.", "The fruitful partnership between Moi University and Moi Institute of Technology led to another milestone. In June 2012, the government elevated Moi Institute of Technology to Rongo University College, becoming a constituent college of Moi University.", "Finally, on October 7, 2016, Rongo University College achieved its greatest achievement when it was granted a charter by President Uhuru Kenyatta. This milestone marked the official transformation of Rongo University College into a full-fledged public university."],
+            "context": [""]
+          },
+          {
+            "tag": "location",
+            "patterns": ["Where is RU located?", "RU's location", "How to reach RU"],
+            "responses": ["Situated just 11 kilometers from Rongo Town and conveniently located 2.5 kilometers off the Rongo-Migori Highway, our university proudly serves a student population of over 6,000."],
+            "context": [""]
+          },
+          {
+            "tag": "programs",
+            "patterns": ["Tell me about the programs at RU", "RU's academic offerings", "What degrees does RU offer"],
+            "responses": ["We offer a range of government-sponsored and self-sponsorship programs, providing ample opportunities for students to pursue their educational goals."],
+            "context": [""]
+          },
+          {
+            "tag": "mission",
+            "patterns": ["What is RU's mission?", "RU's educational mission", "RU's goals"],
+            "responses": ["At Rongo University, our mission is to provide high-quality education that meets the needs of our students and the demands of the job market. We strive to develop and deliver market-driven academic programs, conduct impactful research and extension activities, and contribute to the socio-economic well-being of Kenya at both local and national levels."],
+            "context": [""]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": [
+              "Goodbye",
+              "See you later",
+              "Farewell",
+              "Bye for now",
+              "Take care",
+              "Until next time",
+              "ok then",
+              "ok bye",
+              "So long",
+              "Bye-bye",
+              "kwaheri"
+            ],
+            "responses": [
+              "Goodbye! Have a great day.",
+              "See you later! Feel free to return anytime.",
+              "Farewell! Take care.",
+              "Bye for now! If you have more questions, don't hesitate to ask.",
+              "Take care! I'll be here when you need assistance.",
+              "Until next time! Feel free to reach out.",
+              "Adios! Remember, I'm here to help.",
+              "Cheerio! If you have more inquiries, don't hesitate to ask.",
+              "So long! If there's anything else you'd like to know, just ask.",
+              "Bye-bye! Stay safe and take care."
+            ],
+            "context": [""]
+          },
+          
+          {
+            "tag": "pride",
+            "patterns": ["What is RU proud of?", "RU's achievements", "RU community pride"],
+            "responses": ["As members of the Rongo University community, including our esteemed staff and students, we take great pride in being associated with this prestigious institution."],
+            "context": [""]
+          },
+          {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact RU?", 
+                "Contact information for RU", 
+                "How to get in touch with RU",
+                "What is the email address for RU's admissions office?",
+                "How do I schedule a campus tour at RU?",
+                "Who can I contact for information on financial aid at RU?",
+                "Can you provide me with RU's main phone number?",
+                "How can I inquire about student housing at RU?",
+                "Is there a specific contact for international students at RU?",
+                "Who should I reach out to for IT support at RU?",
+                "How can I get in touch with RU's career services office?",
+                "What's the contact information for RU's health services?",
+                "Is there a specific department for student organizations at RU?",
+                "Who can I contact about admissions for transfer students at RU?",
+                "How do I connect with RU's alumni relations office?"
+            ],
+            "responses": [
+                "Join us at Rongo University and become part of a vibrant academic community dedicated to excellence in education, research, and community service.",
+                "Contact us today to start your journey towards a brighter future.",
+                ". Call 0792455501/0754434308",
+                ". Email:john.odero26@gmail.com",
+                ". www.rongoversity.co.ke"
+
+            ],
+            "context": [""]
+        },
+        {
+          "tag": "goodbye",
+          "patterns": [
+             "ok",
+             "see you",
+             "bye bye",
+             "See you later",
+             "Goodbye",
+             "I am Leaving",
+             "Bye",
+             "Have a Good day",
+             "talk to you later",
+             "ttyl",
+             "i got to go",
+             "fine"
+          ],
+          "responses": [
+             "Sad to see you go :(",
+             "Talk to you later",
+             "Goodbye!",
+             "Come back soon"
+          ],
+          "context_set": ""
+       },
+       {
+        "tag": "creator",
+        "patterns": [
+           "what is the name of your developers",
+           "what is the name of your creators",
+           "what is the name of the developers",
+           "what is the name of the creators",
+           "who created you",
+           "your developers",
+           "your creators",
+           "who are your developers",
+           "developers",
+           "you are made by",
+           "you are made by whom",
+           "who created you",
+           "who create you",
+           "creators",
+           "who made you",
+           "who designed you"
+        ],
+        "responses": [
+           "i was developed and trained by john odero , a rongo university student"
+        ],
+        "context_set": ""
+     },
+     {
+      "tag": "name",
+      "patterns": [
+         "name",
+         "your name",
+         "do you have a name",
+         "what are you called",
+         "what is your name",
+         "what should I call you",
+         "whats your name?",
+         "what are you",
+         "who are you",
+         "who is this",
+         "what am i chatting to",
+         "who am i taking to",
+         "what are you"
+      ],
+      "responses": [
+         "You can call me Rongo university CHatBOt.",
+         "I'm Chatbot for Rongo university",
+         "I am Rongo University Chatbot ",
+         "I am your helper in Rongo university "
+      ],
+      "context_set": ""
+   },
+   {
+    "tag": "hours",
+    "patterns": [
+       "timing of rongo university",
+       "what is university timing",
+       "working days",
+       "when are you guys open",
+       "what are your hours",
+       "hours of operation",
+       "when is the university open",
+       "university timing",
+       "what about university timing",
+       "is university open on saturday",
+       "tell something about university timing",
+       "what is the university  hours",
+       "when should i come to college",
+       "when should i attend university",
+       "what is my university time",
+       "university timing",
+       "timing university"
+    ],
+    "responses": [
+       "Rongo university is open 8am-5pm  as from Monday to Saturday!"
+    ],
+    "context_set": ""
+ },
+ {
+  "tag": "fees",
+  "patterns": [
+     "information about fee",
+     "information on fee",
+     "tell me the fee",
+     "college fee",
+     "fee per semester",
+     "what is the fee of each semester",
+     "what is the fees of each year",
+     "what is fee",
+     "what is the fees",
+     "how much is the fees",
+     "fees for first year",
+     "fees",
+     "about the fees",
+     "tell me something about the fees",
+     "What is the fees of hostel",
+     "how much is the fees",
+     "hostel fees",
+     "fees for AC room",
+     "fees for non-AC room",
+     "fees for Ac room for girls",
+     "fees for non-Ac room for girls",
+     "fees for Ac room for boys",
+     "fees for non-Ac room for boys"
+  ],
+  "responses": [
+     "For Fee detail visit <a target=\"_blank\" href=\"https://www.rongovarsity.ac.ke/\"> here</a>"
+  ],
+  "context_set": ""
+}
+
+                ]
+      }
+      
